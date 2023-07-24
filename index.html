@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<style>
+tr,td{
+padding: 7px;
+color: white;
+}
+button{
+height: 40px;
+width: 120px;
+border-radius: 5px;
+border: none;
+font-weight: 600;
+}
+</style>
+<center>
+<table border="1" style="border-color: #666; background-color:black;" >
+<th colspan="3" style="color:white; background-color:black;"><h2 style=" margin:0;">MARATHON Registration Form</h2></th>
+<form action="data.txt" method="post">
+<tr>
+<td>
+<label for="name">Enter Name</label>
+</td>
+<td><input type="text" id="name" name="name"></td>
+</tr>
+<tr>
+<td>
+    <label for="gender">Gender</label>
+    </td>
+    <td>
+    <input type="radio" name="male" id="gender"> Male
+    <input type="radio" name="female" id="gender"> Female
+    </td>
+    </tr>
+<tr>
+    <td>
+    <label for="">Select city</label>
+    </td>
+    <td>
+    <select name="" id="">
+    <option value="">Select</option>
+    <option value="17">Chennai</option>
+    <option value="18">Coimbatore</option>
+    <option value="19">Banglore</option>
+    <option value="20">Mumbai</option>
+    <option value="21">Hyderabad</option>
+    <option value="22">Goa</option>
+    </select>
+    </td>
+    </tr>
+<tr>
+<td>
+<label for="address">Enter Address</label>
+</td>
+<td>
+<textarea type="text" cols="25" rows="3" id="address" name="address">
+</textarea>
+</td>
+</tr>
+<tr>
+    <td>
+        <label for="Already participated in marathon?">Already participated in marathon?</label>
+        </td>
+        <td>
+        <input type="radio" name="YES" id="gender"> YES
+        <input type="radio" name="NO" id="gender"> NO
+        </td>
+        </tr>
+<tr>
+<td> <label >Select your age category</label></td>
+<td>
+<input type="checkbox" name="10-15" value="10-15"> 10-15 <br>
+<input type="checkbox" name="16-20" value="16-20"> 16-20 <br>
+<input type="checkbox" name="21-25" value="21-25"> 21-25<br>
+<input type="checkbox" name="26-35" value="26-35"> 26-35 <br>
+<input type="checkbox" name="35-above 40" value="35-above">35-above<br>
+</td>
+</tr>
+<tr>
+<tr>
+<td>
+<label for="photo">Select Photo</label>
+</td>
+<td>
+<input type="file" name="photo" id="photo" >
+</td>
+</tr>
+<tr >
+<td colspan="3" >
+<button>Click Me</button>
+<button>Reset</button>
+<button type="submit">Submit Form</button>
+</td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
